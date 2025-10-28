@@ -1,0 +1,12 @@
+services:
+  janusbot:
+    build: .
+    container_name: janusbot
+    restart: unless-stopped
+    volumes:
+      - .:/opt/pysetup
+    environment:
+      - PYTHONPATH=/opt/pysetup
+      - TZ=UTC
+      - LANG=C.UTF-8
+      - PYTHONUNBUFFERED=1
