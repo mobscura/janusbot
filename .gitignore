@@ -96,3 +96,9 @@ coverage.xml
 .env
 
 **/.claude/settings.local.json
+
+# Configuration files with sensitive data
+config.yml
+
+# Keep the example file
+!config.yml.example

@@ -1,0 +1,8 @@
+telegram:
+    token: your_telegram_bot_token_here
+mexc:
+    api_key: your_mexc_api_key_here
+    secret_key: your_mexc_secret_key_here
+bitmart:
+    api_key: your_bitmart_api_key_here
+    secret_key: your_bitmart_secret_key_here
