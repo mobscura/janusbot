@@ -4,9 +4,9 @@ services:
     container_name: janusbot
     restart: unless-stopped
     volumes:
-      - .:/opt/pysetup
+      - .:/janusbot
     environment:
-      - PYTHONPATH=/opt/pysetup
+      - PYTHONPATH=/janusbot
       - TZ=UTC
       - LANG=C.UTF-8
       - PYTHONUNBUFFERED=1

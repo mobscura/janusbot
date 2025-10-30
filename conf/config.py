@@ -3,7 +3,7 @@ from pathlib import Path
 
 def load_config():
     """Load configuration from YAML file"""
-    config_path = Path(__file__).parent.parent / "config.yml"
+    config_path = Path(__file__).parent / "config.yml"
     
     if not config_path.exists():
         raise FileNotFoundError(f"Configuration file not found: {config_path}")

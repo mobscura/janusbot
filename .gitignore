@@ -102,3 +102,6 @@ config.yml
 
 # Keep the example file
 !config.yml.example
+
+# External package file
+poetry.lock
